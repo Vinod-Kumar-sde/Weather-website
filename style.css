@@ -26,11 +26,11 @@ body{
     justify-content: space-between;
 }
 .search input{
-    padding: 10px 25px;
+    padding: 10px 20px;
     outline: 0;
     border: 1.5px solid black;
     flex: 1;
-    height: 60px;
+    height: 45px;
     width: 60%;
     border-radius: 30px;
     margin-right: 16px;
