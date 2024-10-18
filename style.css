@@ -11,10 +11,10 @@ body{
   background-size: cover; /* To cover the entire background */
   background-repeat: no-repeat; /* Prevent repeating */
   background-position: center; /* Center the image */
-  opacity: 0.75;
-   
-
+  opacity: 0.8;
 }
+
+
 .card{
     visibility: ;
     border: lightyellow solid 1.5px;
