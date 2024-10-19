@@ -60,7 +60,9 @@ const fetchWeather = () => {
         temperature.innerHTML = `${parseInt(json.main.temp)}<span>°c</span>`;
         description.innerHTML = `${json.weather[0].description}`;
         humidityElement.innerHTML = `${json.main.humidity}%`;
-        windElement.innerHTML = `${parseInt(json.wind.speed)} km/h`;
+        // windElement.innerHTML = `${parseInt(json.wind.speed)} km/h`;
+        windElement.innerHTML = `${parseInt(json.wind.speed * 3.6)} km/h`;
+
     });
 };
 
